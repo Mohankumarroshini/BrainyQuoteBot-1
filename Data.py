@@ -60,7 +60,7 @@ More features in development. Keep track by joining @TamilBots.
 
 ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @TamilBots ᴡʜɪᴄʜ ᴘʀᴏᴠɪᴅᴇs ǫᴜᴏᴛᴇs ғʀᴏᴍ brainyquotes.com ᴜsɪɴɢ ᴘʏᴛʜᴏɴ.
 
-ᴅᴇᴠ : [Click Here](https://github.com/StarkBotsIndustries/BrainyQuoteBot)
+ᴅᴇᴠ : [ᴍsᴅ](https://t.me/my_dear_lightbright)
 
 ғʀᴀᴍᴇᴡᴏʀᴋ : [Pyrogram](docs.pyrogram.org)
 
