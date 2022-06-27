@@ -29,13 +29,13 @@ async def quote_of_the_day():
         result = InlineQueryResultArticle(
             title=title,
             input_message_content=InputTextMessageContent(f"**ıllıllı★ {title} ★ıllıllı**\n\n{quote} \n\n~ {author}"),
-            url="https://t.me/StarkBots",
+            url="https://t.me/Tamilbots",
             description=quote,
-            thumb_url="https://telegra.ph/file/9fd2796d73782364dd2df.jpg",
+            thumb_url="https://telegra.ph/file/ce4fa9c519495a18ac6ab.jpg",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("✨ Search More Quotes ✨", switch_inline_query_current_chat="")],
-                    [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")]
+                    [InlineKeyboardButton("✨ sᴇᴀʀᴄʜ ᴍᴏʀᴇ ǫᴜᴏᴛᴇs ✨", switch_inline_query_current_chat="")],
+                    [InlineKeyboardButton("♥ ғᴏʀ ᴍᴏʀᴇ ʙᴏᴛs ♥", url="https://t.me/tamilbots")]
                 ]
             ),
         )
