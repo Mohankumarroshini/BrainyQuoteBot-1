@@ -30,14 +30,14 @@ async def brainy_quotes(query):
         quote = value[0]
         result = InlineQueryResultArticle(
             title=author,
-            input_message_content=InputTextMessageContent("ıllıllı★ 𝐁𝐫𝐚𝐢𝐧𝐲 𝐐𝐮𝐨𝐭𝐞𝐬 𝐁𝐨𝐭 ★ıllıllı \n\n" + quote + "\n\n~ " + author),
-            url="https://t.me/StarkBots",
+            input_message_content=InputTextMessageContent("ıllıllı★ 𝐐𝐮𝐨𝐭𝐞𝐬 𝐁𝐨𝐭 ★ıllıllı \n\n" + quote + "\n\n~ " + author),
+            url="https://t.me/tamilbots",
             description=quote,
-            thumb_url="https://telegra.ph/file/9fd2796d73782364dd2df.jpg",
+            thumb_url="https://telegra.ph/file/ce4fa9c519495a18ac6ab.jpg",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("✨ Search More Quotes ✨", switch_inline_query_current_chat="")],
-                    [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")]
+                    [InlineKeyboardButton("✨ sᴇᴀʀᴄʜ ᴍᴏʀᴇ ǫᴜᴏᴛᴇs ✨", switch_inline_query_current_chat="")],
+                    [InlineKeyboardButton("♥ ғᴏʀ ᴍᴏʀᴇ ʙᴏᴛs ♥", url="https://t.me/tamilbots")]
                 ]
             ),
         )
@@ -48,15 +48,15 @@ async def brainy_quotes(query):
     return articles
 
 main = InlineQueryResultArticle(
-            title="Brainy Quotes Bot",
+            title="Quotes Bot",
             input_message_content=InputTextMessageContent(Data.HELP),
-            url="https://t.me/StarkBots",
+            url="https://t.me/tamilbots",
             description="Learn How to use me efficiently",
-            thumb_url="https://telegra.ph/file/9fd2796d73782364dd2df.jpg",
+            thumb_url="https://telegra.ph/file/ce4fa9c519495a18ac6ab.jpg",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("✨ Search Quotes ✨", switch_inline_query_current_chat="")],
-                    [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")]
+                    [InlineKeyboardButton("✨ sᴇᴀʀᴄʜ ǫᴜᴏᴛᴇs ✨", switch_inline_query_current_chat="")],
+                    [InlineKeyboardButton("♥ ғᴏʀ ᴍᴏʀᴇ ʙᴏᴛs ♥", url="https://t.me/tamilbots")]
                 ]
             ),
         )
